@@ -917,7 +917,7 @@
 
 	h1.about1 {
 		color: #000000;
-		font-family: 'proxima_nova_rgregular';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 20px;
 		line-height: 24px;
 		font-weight: 700;
@@ -925,7 +925,7 @@
 	}
 
 	h1.abouthome1 {
-		font-family: 'proxima_nova_rgregular';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 20px;
 		line-height: 22px;
 		font-weight: 600;
@@ -967,12 +967,12 @@
 	}
 
 	h4.abouthome2 {
-		font-family: 'proxima_nova_rgregular';
-		font-size: 18px;
+		font-family: 'montserratlight';
+		font-size: 14px;
 		line-height: 20px;
 		font-weight: 400;
 		color: #ffffff;
-		width: 85%;
+		width: 75%;
 		padding: 0px 20px 0px 40px;
 	}
 
