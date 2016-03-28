@@ -38,10 +38,13 @@
 }
 
 @font-face {
-    font-family: 'proximanova-semibold';
-    src: url("../styles/proximanova-semibold-webfont.eot");
-    src: url("../styles/proximanova-semibold-webfont.woff") format("woff"),
-         url("../styles/proximanova-semibold-webfont.ttf") format("truetype"),;
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('proxima_nova_semibold-webfont.eot');
+    src: url('proxima_nova_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_semibold-webfont.woff2') format('woff2'),
+         url('proxima_nova_semibold-webfont.woff') format('woff'),
+         url('proxima_nova_semibold-webfont.ttf') format('truetype'),
+         url('proxima_nova_semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -49,10 +52,13 @@
 
 
 @font-face {
-    font-family: 'proximanova-regular';
-    src: url("../styles/proximanova-regular-webfont.eot");
-    src: url("../styles/proximanova-regular-webfont.woff") format("woff"),
-         url("../styles/proximanova-regular-webfont.ttf") format("truetype"),;
+    font-family: 'proxima_nova_rgregular';
+    src: url('proxima_nova_rgregular-webfont.eot');
+    src: url('proxima_nova_rgregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proxima_nova_rgregular-webfont.woff2') format('woff2'),
+         url('proxima_nova_rgregular-webfont.woff') format('woff'),
+         url('proxima_nova_rgregular-webfont.ttf') format('truetype'),
+         url('proxima_nova_rgregular-webfont.svg#proxima_nova_rgregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -315,32 +321,32 @@
 
 	h1.about1 {
 		color: #000000;
-		font-family: 'proximanova-regular';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 36px;
 		line-height: 40px;
-		font-weight: 700;
+		font-weight: 400;
 		margin: 18px 0px 15px 0px;
 	}
 
 	h1.abouthome1 {
-		font-family: 'proximanova-regular';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 40px;
 		line-height: 30px;
-		font-weight: 600;
+		font-weight: 400;
 		color: #ffffff;
 		padding: 80px 0px 0px 50px;
 	}
 
 
 	h2 {
-		font-family: 'proximanova-semibold';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 30px;
 		line-height: 34px;
 		color: #000000;
 	}
 
 	h3.maintitle {
-		font-family: 'proximanova-semibold';
+		font-family: 'proxima_nova_ltsemibold';
 		font-weight: 700;
 		font-size: 26px;
 		line-height: 30px;
@@ -349,14 +355,14 @@
 	}
 
 	h3 {
-		font-family: 'proximanova-semibold';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 26px;
 		line-height: 30px;
 		color: #e6e7e8;
 	}
 
 	h4.bodytitle {
-		font-family: 'proximanova-semibold';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 18px;
 		line-height: 24px;
 		font-weight: 400;
@@ -365,8 +371,8 @@
 	}
 
 	h4.abouthome2 {
-		font-family: 'proximanova-regular';
-		font-size: 20px;
+		font-family: 'montserratlight';
+		font-size: 18px;
 		line-height: 26px;
 		font-weight: 400;
 		color: #ffffff;
@@ -871,7 +877,7 @@
 		height: auto;
 		width: 80%;
 		font-family: 'montserratlight';
-		padding: 30px 35px;
+		padding: 30px 45px 30px 0px;
 	}
 
 	.maintext {
@@ -911,7 +917,7 @@
 
 	h1.about1 {
 		color: #000000;
-		font-family: 'proximanova-regular';
+		font-family: 'proxima_nova_rgregular';
 		font-size: 20px;
 		line-height: 24px;
 		font-weight: 700;
@@ -919,7 +925,7 @@
 	}
 
 	h1.abouthome1 {
-		font-family: 'proximanova-regular';
+		font-family: 'proxima_nova_rgregular';
 		font-size: 20px;
 		line-height: 22px;
 		font-weight: 600;
@@ -929,14 +935,14 @@
 
 
 	h2 {
-		font-family: 'proximanova-semibold';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 22px;
 		line-height: 24px;
 		color: #000000;
 	}
 
 	h3.maintitle {
-		font-family: 'proximanova-semibold';
+		font-family: 'proxima_nova_ltsemibold';
 		font-weight: 700;
 		font-size: 22px;
 		line-height: 20px;
@@ -945,14 +951,14 @@
 	}
 
 	h3 {
-		font-family: 'proximanova-semibold';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 18px;
 		line-height: 20px;
 		color: #e6e7e8;
 	}
 
 	h4.bodytitle {
-		font-family: 'proximanova-semibold';
+		font-family: 'proxima_nova_ltsemibold';
 		font-size: 18px;
 		line-height: 20px;
 		font-weight: 400;
@@ -961,7 +967,7 @@
 	}
 
 	h4.abouthome2 {
-		font-family: 'proximanova-regular';
+		font-family: 'proxima_nova_rgregular';
 		font-size: 18px;
 		line-height: 20px;
 		font-weight: 400;
