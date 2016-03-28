@@ -672,7 +672,7 @@
 
 /* phone */
 
-@media all and (max-width: 480px) {
+@media (max-width: 480px) {
 
 
 	body, .wrapper {
