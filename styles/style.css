@@ -163,7 +163,9 @@
 	}
 
 
-
+	.borderbottom {
+		display: none;
+	}
 
 	.column1_half {
 		max-width: 50%;
@@ -284,7 +286,7 @@
 		height: auto;
 		width: 90%;
 		font-family: 'montserratlight';
-		padding: 50px 38px;
+		padding: 30px 38px;
 	}
 
 	.maintext {
@@ -448,7 +450,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 350px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -462,7 +464,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 330px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 50%;
 	    transform: translate(-50%, 50%);    
@@ -476,7 +478,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 350px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -490,8 +492,8 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 330px; 
-	    left: 50%;
+	    height: 38%; 
+	    left: 49%;
 	    top: 50%;
 	    transform: translate(-50%, 50%);    
 	    -webkit-transform: translate(-50%, 50%);
@@ -504,7 +506,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 300px; 
+	    height: 35%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -518,7 +520,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 350px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 50%;
 	    transform: translate(-50%, 50%);    
@@ -533,7 +535,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 550px;
+		height: 40%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -548,7 +550,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 500px; 
+	    height: 35%; 
 	    left: 50%;
 	    top: 50%;
 	    transform: translate(-50%, 50%);    
@@ -562,7 +564,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 550px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -576,7 +578,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 550px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 50%;
 	    transform: translate(-50%, 50%);    
@@ -697,7 +699,7 @@
 
 	.header {
 		background-color: #ffffff;
-		height: 200px;
+		height: 170px;
 		position: relative;
 		z-index: 5;
 		-webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.3);
@@ -706,24 +708,14 @@
 	}
 
 	.logo img {
-		float: left;
 		max-width: 200px;
 		height: auto;
 		overflow: auto;
-		left: 50%;
-	    transform: translateX(50%);    
-	    -webkit-transform: translateX(50%);
-	    -moz-transform: translateX(50%);
-	    -ms-transform: translateX(50%);
-	    margin: 30px -5px 35px 0px;
+	    margin: 30px 0px 20px 35px;
 	}
 
 	.nav {
 		clear: left;
-		border-top: 1px solid #808284;
-		border-bottom: 1px solid #808284;
-		width: 80%;
-		margin: 0px 45px;
 	}
 
 
@@ -732,12 +724,8 @@
 		list-style: none;
 		font-family: 'montserratregular';
 		font-size: 16px;
-		left: 35%;
-		padding-right: 10px;
-	    transform: translateX(35%);    
-	    -webkit-transform: translateX(35%);
-	    -moz-transform: translateX(35%);
-	    -ms-transform: translateX(35%);
+		padding-right: 30px;
+		margin-right: 0px 15px;		
 	}
 
 	.nav ul li a{
@@ -875,9 +863,9 @@
 	.aboutmetext {
 		position: relative;
 		height: auto;
-		width: 80%;
+		width: 90%;
 		font-family: 'montserratlight';
-		padding: 30px 45px 30px 0px;
+		padding: 30px 0px 30px 0px;
 	}
 
 	.maintext {
@@ -918,15 +906,16 @@
 	h1.about1 {
 		color: #000000;
 		font-family: 'proxima_nova_ltsemibold';
-		font-size: 20px;
+		font-weight: 700;
+		font-size: 19.1px;
 		line-height: 24px;
 		font-weight: 700;
-		margin: 18px 0px 15px 0px;
+		margin: 18px 0px 15px 20px;
 	}
 
 	h1.abouthome1 {
 		font-family: 'proxima_nova_ltsemibold';
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 22px;
 		font-weight: 600;
 		color: #ffffff;
@@ -972,15 +961,16 @@
 		line-height: 20px;
 		font-weight: 400;
 		color: #ffffff;
-		width: 75%;
-		padding: 0px 20px 0px 40px;
+		width: 78%;
+		padding: 0px 0px 20px 40px;
 	}
 
 	h4.abouttitle {
 		color: #000000;
 		font-family: 'montserratbold';
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 20px;
+		margin-left: 20px;
 	}
 
 	p {
@@ -988,7 +978,6 @@
 		font-family: 'montserratlight';
 		font-size: 16px;
 		line-height: 22px;
-
 	}
 
 	p.projects {
@@ -1005,7 +994,7 @@
 		font-family: 'montserratlight';
 		font-size: 16px;
 		line-height: 22px;
-		margin: -20px 0px 0px 0px;
+		margin: -20px 0px 0px 20px;
 	}
 
 	p.email a {
@@ -1019,6 +1008,7 @@
 		font-family: 'montserratlight';
 		line-height: 22px;
 		color: #000000;
+		margin-left: 20px;
 	}
 
 	ul.projects {
@@ -1044,7 +1034,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 350px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -1058,9 +1048,9 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 330px; 
+	    height: 40%; 
 	    left: 50%;
-	    top: 50%;
+	    top: 0;
 	    transform: translate(-50%, 50%);    
 	    -webkit-transform: translate(-50%, 50%);
 	    -moz-transform: translate(-50%, 50%);
@@ -1072,7 +1062,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 350px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -1086,9 +1076,9 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 330px; 
+	    height: 40%; 
 	    left: 50%;
-	    top: 50%;
+	    top: 0;
 	    transform: translate(-50%, 50%);    
 	    -webkit-transform: translate(-50%, 50%);
 	    -moz-transform: translate(-50%, 50%);
@@ -1100,7 +1090,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 300px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -1114,9 +1104,9 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 350px; 
+	    height: 40%; 
 	    left: 50%;
-	    top: 50%;
+	    top: 0;
 	    transform: translate(-50%, 50%);    
 	    -webkit-transform: translate(-50%, 50%);
 	    -moz-transform: translate(-50%, 50%);
@@ -1129,7 +1119,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-		height: 340px; 
+		height: 40%; 
 	    left: 50%;
 	    top: 0;
 	    transform: translate(-50%, 50%);    
@@ -1144,7 +1134,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 330px; 
+	    height: 35%; 
 	    left: 50%;
 	    top: 50%;
 	    transform: translate(-50%, 50%);    
@@ -1158,9 +1148,9 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 340px; 
+	    height: 40%; 
 	    left: 50%;
-	    top: 0%;
+	    top: 0;
 	    transform: translate(-50%, 50%);    
 	    -webkit-transform: translate(-50%, 50%);
 	    -moz-transform: translate(-50%, 50%);
@@ -1172,7 +1162,7 @@
 		overflow: hidden;
 		text-align: center;
 	    z-index: 9999;
-	    height: 340px; 
+	    height: 40%; 
 	    left: 50%;
 	    top: 50%;
 	    transform: translate(-50%, 50%);    
@@ -1189,17 +1179,17 @@
 
 	.previousnext {
 		float: right;
-		margin: 5px 15px 30px 0px;
+		margin: 0px 15px 20px 0px;
 	}
 
 	.back {
 		float: left;
-		margin: 5px 50px 30px 25px;
+		margin: 0px 50px 20px 15px;
 	}
 
 	.footer {
 		clear: left;
-		height: 100px;
+		height: 170px;
 		background-color: #404041;
 	}
 
@@ -1240,7 +1230,7 @@
 		font-size: 16px;
 		float: left;
 		overflow: auto;
-		margin: 40px 50px 0px 25px;
+		margin: 30px 0px 0px 15px;
 	}
 
 	.resume a {
@@ -1251,9 +1241,10 @@
 		
 
 	.socialicons {
-		float: left;
+		float: right;
 		overflow: auto;
-		margin: 20px 0px 15px 50px;
+		margin: 10px 15px 15px 0px;
+		
 	}
 
 	.socialicons ul li {
