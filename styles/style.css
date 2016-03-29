@@ -1048,7 +1048,7 @@
 	    z-index: 9999;
 	    height: 40%; 
 	    left: 50%;
-	    top: 0;
+	    top: 50%;
 	    transform: translate(-50%, 50%);    
 	    -webkit-transform: translate(-50%, 50%);
 	    -moz-transform: translate(-50%, 50%);
@@ -1076,7 +1076,7 @@
 	    z-index: 9999;
 	    height: 40%; 
 	    left: 50%;
-	    top: 0;
+	    top: 50%;
 	    transform: translate(-50%, 50%);    
 	    -webkit-transform: translate(-50%, 50%);
 	    -moz-transform: translate(-50%, 50%);
@@ -1104,7 +1104,7 @@
 	    z-index: 9999;
 	    height: 40%; 
 	    left: 50%;
-	    top: 0;
+	    top: 50%;
 	    transform: translate(-50%, 50%);    
 	    -webkit-transform: translate(-50%, 50%);
 	    -moz-transform: translate(-50%, 50%);
