@@ -906,7 +906,6 @@
 	h1.about1 {
 		color: #000000;
 		font-family: 'proxima_nova_ltsemibold';
-		font-weight: 700;
 		font-size: 19.1px;
 		line-height: 24px;
 		font-weight: 700;
@@ -917,7 +916,6 @@
 		font-family: 'proxima_nova_ltsemibold';
 		font-size: 18px;
 		line-height: 22px;
-		font-weight: 600;
 		color: #ffffff;
 		padding: 50px 0px 0px 40px;
 	}
@@ -1189,7 +1187,7 @@
 
 	.footer {
 		clear: left;
-		height: 170px;
+		height: 120px;
 		background-color: #404041;
 	}
 
