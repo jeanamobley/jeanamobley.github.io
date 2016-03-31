@@ -67,7 +67,7 @@
 
 
 
-@media (min-width: 767px) and (max-width: 1400px) {
+@media (min-width: 480px) and (max-width: 1400px) {
 
 	body, .wrapper {
 		background-color: #f7f9f9;
@@ -226,6 +226,8 @@
 	}
 
 	.column40 {
+		position: fixed;
+		z-index: 10;
 		max-width: 38%;
 		height: auto;
 		float: left;
@@ -302,7 +304,6 @@
 	}
 
 	.maintext {
-		position: relative;
 		height: auto;
 		width: 80%;
 		font-family: 'montserratlight';
@@ -749,7 +750,7 @@
     	color: #808284;
     	font-family: 'montserratregular';
 		font-size: 16px;
-		padding: 12px;
+		padding: 15px;
     }
 
 
