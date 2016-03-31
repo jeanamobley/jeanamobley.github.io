@@ -101,34 +101,38 @@
 		margin: 28px 0px 0px 40px;
 	}
 
-	.nav {
+	nav {
 		float: right;
 	}
 
+	nav a#pull {
+    	display: none;
+	}       
 
-	.nav ul li a.current{
+
+	nav ul li a.current{
 		color: #000000;
 		text-decoration: none;
 		border-bottom: 2px solid #d91b5b;
 	}
 
-	.nav ul li a:link.current{
+	nav ul li a:link.current{
 		color: #808284;
 		text-decoration: none;
 	}
 
-	.nav ul li a:hover.current{
+	nav ul li a:hover.current{
 		color: #d91b5b;
 		text-decoration: none;
 		border-bottom: 2px solid #d91b5b;
 	}
 
-	.nav ul li a:active.current{
+	nav ul li a:active.current{
 		color: #000000;
 		text-decoration: none;
 	}
 
-	.nav ul li{
+	nav ul li{
 		display: inline-block;
 		list-style: none;
 		font-family: 'montserratregular';
@@ -137,31 +141,39 @@
 		margin: 18px 30px 18px 0px;
 	}
 
-	.nav ul li a{
+	nav a#pull {
+	    display: none;
+	} 
+
+	#nav-button {
+		display: none;
+	}
+
+	nav ul li a{
 		color: #808284;
 		text-decoration: none;
 	}
 
-	.nav ul li a:link{
+	nav ul li a:link{
 		color: #808284;
 		text-decoration: none;
 	}
 
-	.nav ul li a:hover{
+	nav ul li a:hover{
 		color: #d91b5b;
 		text-decoration: none;
 	}
 
-	.nav ul li a:hover:after{
+	nav ul li a:hover:after{
 		color: #808284;
 		text-decoration: none;
 	}
 
-	.nav ul li a:active{
+	nav ul li a:active{
 		color: #000000;
 		text-decoration: none;
 	}
-
+  
 
 	.borderbottom {
 		display: none;
@@ -693,13 +705,12 @@
 
 
 	.wrapper_about {
-		clear: left;
 		background-color: #f7f9f9;
 	}
 
 	.header {
 		background-color: #ffffff;
-		height: 170px;
+		height: 110px;
 		position: relative;
 		z-index: 5;
 		-webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.3);
@@ -708,37 +719,84 @@
 	}
 
 	.logo img {
-		max-width: 200px;
+		max-width: 190px;
 		height: auto;
 		overflow: auto;
 	    margin: 30px 0px 20px 35px;
 	}
 
-	.nav {
-		clear: left;
-	}
+	nav {
+        border-bottom: 0;
+        width: 100%;
+        background-color: #ffffff;
+        z-index: 15;
+        position: absolute;
+    }
 
 
-	.nav ul li{
-		display: inline-block;
-		list-style: none;
-		font-family: 'montserratregular';
+    nav ul {
+    	background-color: #ffffff;
+		text-decoration: none;
+        display: none;
+        height: auto;
+        list-style: none;
+        margin: -10px 20px 20px 0px;
+        
+    }
+
+    nav ul li {
+    	background-color: #ffffff;
+    	color: #808284;
+    	font-family: 'montserratregular';
 		font-size: 16px;
-		padding-right: 30px;
-		margin-right: 0px 15px;		
+		padding: 8px;
+    }
+
+
+    nav a#pull {
+        display: block;
+        position: relative;
+    }
+
+
+    #nav-button {
+    	float: right;
+        margin: -60px 30px 0px 0px;
+        content:"";
+        background: url('../images/nav-icon.png') no-repeat;
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: relatvie;
+    }
+
+
+    .clearfix:before,
+	.clearfix:after {
+	    content: " ";
+	    display: table;
+	}
+	.clearfix:after {
+	    clear: both;
+	}
+	.clearfix {
+	    *zoom: 1;
+	    float: right;
 	}
 
-	.nav ul li a{
+
+	nav ul li a{
 		color: #808284;
 		text-decoration: none;
 	}
 
-	.nav ul li a:link{
+	nav ul li a:link{
 		color: #808284;
 		text-decoration: none;
 	}
 
-	.nav ul li a:active{
+	nav ul li a:active{
 		color: #000000;
 		text-decoration: none;
 	}
@@ -797,7 +855,7 @@
 		height: auto;
 		float: left;
 		overflow: hidden;
-		position: relative;
+
 		display: block;
 	}
 
@@ -806,7 +864,7 @@
 		height: auto;
 		float: left;
 		overflow: hidden;
-		position: relative;
+
 		display: block;
 		margin: 40px 0px 0px 0px;
 	}
@@ -869,7 +927,6 @@
 	}
 
 	.maintext {
-		position: relative;
 		height: auto;
 		width: 80%;
 		font-family: 'montserratlight';
@@ -913,6 +970,7 @@
 	}
 
 	h1.abouthome1 {
+		position: absolute;
 		font-family: 'proxima_nova_ltsemibold';
 		font-size: 18px;
 		line-height: 22px;
@@ -954,13 +1012,14 @@
 	}
 
 	h4.abouthome2 {
+		position: absolute;
 		font-family: 'montserratlight';
 		font-size: 14px;
 		line-height: 20px;
 		font-weight: 400;
 		color: #ffffff;
 		width: 78%;
-		padding: 0px 0px 20px 40px;
+		padding: 70px 0px 20px 40px;
 	}
 
 	h4.abouttitle {
