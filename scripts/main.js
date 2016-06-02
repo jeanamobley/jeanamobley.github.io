@@ -181,14 +181,42 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-    var pull = $('#pull');
-        menu = $('nav ul');
-        menuHeight = menu.height();
- 
-    $("#nav-button").on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle();
-    });
+        //CLICK EVENT TO OPEN HAMBURGER NAV
+        var pull = $('#pull');
+        var menu = $('nav ul');
+        var menuHeight = menu.height();
+
+        var slideLeft = false;
+
+        var w = $(window).width();
+     
+
+        $("#nav-button").on('click', function(e) {
+            e.preventDefault();
+            console.log('hello');
+            
+            if(slideLeft === false){
+                slideLeft = true;
+                $('nav').animate({
+                    left: '0vw'
+                });
+                $('body').css('overflow', 'hidden');
+                menu.slideToggle();
+            } else {
+                slideLeft = false;
+                $('nav').animate({
+                    left: '100vw'
+                });
+                menu.slideToggle();
+                $('body').css('overflow', 'auto');
+
+            }
+        });
+
+
+        $('#nav-button').click(function(){
+            $(this).toggleClass('open');
+        });
 
     $(window).resize(function(){
     var w = $(window).width();
