@@ -67,7 +67,7 @@
 
 
 
-@media (min-width: 481px) and (max-width: 1400px) {
+@media (min-width: 481px) {
 
 	body, .wrapper {
 		background-color: #f7f9f9;
@@ -180,49 +180,59 @@
 	}
 
 	.column1_half {
-		max-width: 50%;
+		width: 50%;
 		height: auto;
 		float: left;
 		overflow: hidden;
 		position: relative;
 		display: block;
+		margin: 0;
+		padding: 0;
 	}
 
 	.column2_half {
-		max-width: 50%;
+		width: 50%;
 		height: auto;
 		float: left;
 		overflow: hidden;
 		position: relative;
 		display: block;
+		margin: 0;
+		padding: 0;
 	}
 
 
 	.column1 {
-		max-width: 33.333%;
+		width: 33.333%;
 		height: auto;
 		float: left;
 		overflow: hidden;
 		position: relative;
 		display: block;
+		margin: 0;
+		padding: 0;
 	}
 
 	.column2 {
-		max-width: 33.333%;
+		width: 33.333%;
 		height: auto;
 		float: left;
 		overflow: hidden;
 		position: relative;
 		display: block;
+		margin: 0;
+		padding: 0;
 	}
 
 	.column3 {
-		max-width: 33.333%;
+		width: 33.333%;
 		height: auto;
 		float: left;
 		overflow: hidden;
 		position: relative;
 		display: block;
+		margin: 0;
+		padding: 0;
 	}
 
 	.column40 {
