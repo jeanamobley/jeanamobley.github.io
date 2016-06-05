@@ -180,6 +180,27 @@ $(document).ready(function() {
 });
 
 
+        $(window).load(function(){
+            var w = $(window).width();
+            if(w <= 699) {
+                $('.thumbnails_big img').css('opacity', '0.4');
+                $('.thumbnails_big img').hover(function(){
+                    $('.thumbnails_big img').css('opacity', '0.4');
+                })
+             }
+        });
+
+        $(window).load(function(){
+            var w = $(window).width();
+            if(w <= 699) {
+                $('.thumbnails img').css('opacity', '0.4');
+                $('.thumbnails img').hover(function(){
+                    $('.thumbnails img').css('opacity', '0.4');
+                })
+             }
+        });
+
+
 $(document).ready(function() {
         //CLICK EVENT TO OPEN HAMBURGER NAV
         var pull = $('#pull');
