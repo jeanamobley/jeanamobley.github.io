@@ -180,6 +180,27 @@ $(document).ready(function() {
 });
 
 
+        $(window).load(function(){
+            var w = $(window).width();
+            if(w <= 699) {
+                $('.thumbnails_big img').css('opacity', '0.4');
+                $('.thumbnails_big img').hover(function(){
+                    $('.thumbnails_big img').css('opacity', '0.4');
+                })
+             }
+        });
+
+        $(window).load(function(){
+            var w = $(window).width();
+            if(w <= 699) {
+                $('.thumbnails img').css('opacity', '0.4');
+                $('.thumbnails img').hover(function(){
+                    $('.thumbnails img').css('opacity', '0.4');
+                })
+             }
+        });
+
+
 $(document).ready(function() {
         //CLICK EVENT TO OPEN HAMBURGER NAV
         var pull = $('#pull');
@@ -202,6 +223,8 @@ $(document).ready(function() {
                 });
                 $('body').css('overflow', 'hidden');
                 menu.slideToggle();
+                $('.ic3401text_big').css('z-index', '1');
+
             } else {
                 slideLeft = false;
                 $('nav').animate({
@@ -209,7 +232,6 @@ $(document).ready(function() {
                 });
                 menu.slideToggle();
                 $('body').css('overflow', 'auto');
-
             }
         });
 
