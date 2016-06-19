@@ -1137,7 +1137,7 @@
 */
 
 	.ic3401text {
-		position: relative;
+		position: absolute;
 		overflow: hidden;
 		text-align: center;
 	    z-index: 200;
