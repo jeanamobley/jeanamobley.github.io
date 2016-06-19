@@ -224,6 +224,7 @@ $(document).ready(function() {
                 $('body').css('overflow', 'hidden');
                 menu.slideToggle();
                 $('.ic3401text_big').css('z-index', '1');
+                $('.ic3401text').css('z-index', '1');
 
             } else {
                 slideLeft = false;
